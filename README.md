@@ -33,10 +33,9 @@ treasure hunt comprising of all story lines.
 ---
 ### Gameplay:
 ![Slide5](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Slide5.PNG?raw=true)
+![Gppng](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Gameplay.png?raw=true)
 ### The screen recording of Webfiles/index.html:
-<video controls="true" allowfullscreen="true" poster="https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Gameplay.png?raw=true" width="100%" height="100%"> 
-    <source src="https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Gameplay.mp4?raw=true" type="video/mp4">
-</video>
+![Gpgif](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Gameplay.gif?raw=true)
 
 ---
 ### Treasurehunt example:
