@@ -44,11 +44,11 @@ treasure hunt comprising of all story lines.
 
 ---
 ### Constraints of the game:
-![Slide7](/Resreadme/Slide7.png)
+![Slide7](https://github.com/vrajpatel001/RISHI/raw/master/Resreadme/Slide7.png)
 
 ---
 ### Our Toycathon 2021 Grandfinale selection poster:
-![advait](/Resreadme/ADVAIT.png)
+![advait](https://github.com/vrajpatel001/RISHI/raw/master/Resreadme/ADVAIT.png)
 
 ---
 #### Notice: 
