@@ -1,0 +1,250 @@
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+ 
+.swingimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+    overflow: hidden;
+}
+
+@-webkit-keyframes swinging1{
+  0%{-webkit-transform: rotate(-5deg);}
+  50%{-webkit-transform: rotate(10deg)}
+  100%{-webkit-transform: rotate(-5deg);}
+}
+
+@keyframes swinging1{
+  0%{transform: rotate(-5deg);}
+  50%{transform: rotate(10deg)}
+  100%{transform: rotate(-5deg);}
+}
+
+.swingimage1{
+  font-weight: 500;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: swinging1 3.5s ease-in-out forwards infinite;
+  animation: swinging1 3.5s ease-in-out forwards infinite;
+}
+
+.coinanim1{
+    animation-name: translate1;
+    animation-duration: 4s;
+    animation-timing-function: linear ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate1 {
+    0% {
+      visibility: visible;
+      transform: translate(0, 0);
+    }
+    85% {
+      transform: translate(400px, 0);
+    }
+    99%{
+      transform: translate(400px, -70px);    
+    }
+    100%{
+      visibility: hidden;
+    }
+}
+
+.coinanim2{
+  animation-name: translate2;
+  animation-duration: 4s;
+  animation-timing-function: linear ease-in-out;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes translate2 {
+  0% {
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+  85% {
+    transform: translate(-409px, 0);
+  }
+  99%{
+    transform: translate(-409px, -70px);    
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+.coinanim3{
+  animation-name: translate3;
+  animation-duration: 4s;
+  animation-timing-function: linear ease-in-out;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes translate3 {
+  0% {
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+  85% {
+    transform: translate(405px, 0);
+  }
+  99%{
+    transform: translate(405px, -70px);    
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+.coinanim4{
+  animation-name: translate4;
+  animation-duration: 4s;
+  animation-timing-function: linear ease-in-out;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes translate4 {
+  0% {
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+  85% {
+    transform: translate(-409px, 0);
+  }
+  99%{
+    transform: translate(-409px, -70px);    
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+
+.coinanim5{
+  animation-name: translate5;
+  animation-duration: 4s;
+  animation-timing-function: linear ease-in-out;
+  animation-delay: 16s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes translate5 {
+  0% {
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+  100% {
+    visibility: visible;
+    transform: translate(400px, 0);
+  }
+}
+
+fire {
+  animation: fire1 5s linear infinite;
+  -webkit-animation: fire1 5s linear infinite;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@keyframes fire1 {
+  0% {
+    background-position: 0% 50%;
+  }
+  0% {
+    background-position: 100% -50%;
+  }
+}
+
+.hourglass, .hourglass:before, .hourglass:after {
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.hourglass:after {
+	animation-name: glare;
+	background:
+		linear-gradient(90deg,#0000 0.5em,#0003 0.5em 1.5em,#0000 1.5em 3.5em,#fff3 3.5em 4.5em,#fff0 4.5em 6.5em,#0003 6.5em 7.5em,#0000 7.5em) 0 0 / 100% 0.5em,
+		linear-gradient(90deg,#0000 0.75em,#0003 0.75em 1.25em,#0000 1.25em 3.75em,#fff3 3.75em 4.25em,#fff0 4.25em 6.75em,#0003 6.75em 7.25em,#0000 7.25em) 0 0.5em / 100% 8em,
+		linear-gradient(90deg,#0000 0.5em,#0003 0.5em 1.5em,#0000 1.5em 3.5em,#fff3 3.5em 4.5em,#fff0 4.5em 6.5em,#0003 6.5em 7.5em,#0000 7.5em) 0 100% / 100% 0.5em;
+	background-repeat: repeat-x;
+	top: 0;
+	left: -3em;
+	width: 200%;
+	height: 100%;
+	z-index: 2;
+}
+
+@keyframes fill {
+	from {
+		clip-path: var(--polygonB1);
+		-webkit-clip-path: var(--polygonB1);
+	}
+	10% {
+		clip-path: var(--polygonB2);
+		-webkit-clip-path: var(--polygonB2);
+	}
+	45% {
+		clip-path: var(--polygonB3);
+		-webkit-clip-path: var(--polygonB3);
+	}
+	80% {
+		clip-path: var(--polygonB4);
+		-webkit-clip-path: var(--polygonB4);
+	}
+	85%, to {
+		clip-path: var(--polygonB5);
+		-webkit-clip-path: var(--polygonB5);
+	}
+}
+
+@keyframes glare {
+	from, 90% {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(3em);
+	}
+}
+
+@keyframes flip {
+	from, 90% {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(180deg);
+	}
+}
+
+/* .lighten {
+  background-clip: border-box;
+  display: block;
+  background-image: url('res/fire.jpg');
+  -webkit-background-clip: image;
+  -webkit-image-fill-color: transparent;
+  animation: flame 5s linear infinite;
+  -webkit-animation: flame 5s linear infinite;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@keyframes flame {
+  0% {
+    background-position: 0% 50%;
+  }
+  0% {
+    background-position: 100% -50%;
+  }
+} */

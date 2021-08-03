@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'MedievalSharp';
+    src: url('res/MedievalSharp.woff') format('woff'),
+    url('res/MedievalSharp.ttf') format('truetype');
+}
+
+.bgc{
+    background-image: linear-gradient(red,yellow);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.scroll{
+    background-image: url(res/Scroll.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    border-radius: 15px;
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+    width: 140px;
+    display: -webkit-inline-box;
+    margin-inline: 29px
+}
+
+.hello3, .hello4{
+    font:inherit;
+    font-size: 15px;
+    font-family: 'MedievalSharp';
+    color: rgb(13, 228, 128);
+    font-weight: 600;
+    padding-inline-end: inherit;
+}
+
+.hello4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.advait{
+    background-image: url(res/ADVAIT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+}
+
+.toyco{
+    background-image: url(res/toycathonlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 58px;
+    position: absolute;
+    top: 4px;
+    left: 344px;
+}
+
+.light{
+    background-image: url(res/lighter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 95px;
+    position: absolute;
+    top: 425px;
+    left: 152px;
+}
+
+.torch{
+    background-image: url(res/fireli.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 95px;
+    position: absolute;
+    top: 328px;
+    left: 145px;
+}
+
+.torch1{
+    background-image: url(res/fireli1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 95px;
+    position: absolute;
+    top: 328px;
+    left: 145px;
+    visibility: hidden;
+}
+
+.post{
+    background-image: url(res/kalash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 56px;
+    height: 66px;
+    position: absolute;
+    bottom: 40px;
+    left: 42px;
+}
+
+.post1{
+    background-image: url(res/kalash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 56px;
+    height: 66px;
+    position: absolute;
+    bottom: 39px;
+    right: 48px;
+}
+
+.rishimain{
+    background-image: url(res/Back.ico);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 175px;
+    height: 151px;
+    position: absolute;
+    bottom: -2px;
+    left: 123px;
+}
+
+.header{
+    background-image: url(res/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 58px;
+    position: absolute;
+    top: 4px;
+    left: 344px;
+}
+
+.coin{
+	width:20px;
+	height:20px;
+	background-color: #03A9F4;
+	position: relative;
+	border-radius: 50%;
+    left: 58px;
+    top: 60px;
+    /*visibility: hidden;*/
+}
+
+.coin21{
+	width:20px;
+	height:20px;
+	background-color: #e003f4;
+	position: relative;
+	border-radius: 50%;
+    left: 58px;
+    top: 60px;
+    /* visibility: hidden; */
+}
+
+.coin1{
+	width:20px;
+	height:20px;
+	background-color: #03A9F4;
+    position: relative;
+    border-radius: 50%;
+    left: 437px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.coin22{
+	width:20px;
+	height:20px;
+	background-color: #e003f4;
+    position: relative;
+    border-radius: 50%;
+    left: 437px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.coin2{
+	width:20px;
+	height:20px;
+	background-color: #03A9F4;
+    position: relative;
+    border-radius: 50%;
+    left: 42px;
+    top: 60px;
+    visibility: hidden;
+}
+
+.coin23{
+	width:20px;
+	height:20px;
+	background-color: #e003f4;
+    position: relative;
+    border-radius: 50%;
+    left: 42px;
+    top: 60px;
+    visibility: hidden;
+}
+
+.coin3{
+	width:20px;
+	height:20px;
+	background-color: #03A9F4;
+    position: relative;
+    border-radius: 50%;
+    left: 435px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.coin24{
+	width:20px;
+	height:20px;
+	background-color: #e003f4;
+    position: relative;
+    border-radius: 50%;
+    left: 435px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.coin4{
+	width:20px;
+	height:20px;
+	background-color: #03A9F4;
+    position: relative;
+    border-radius: 50%;
+    left: 32px;
+    top: 42px;
+    visibility: hidden;
+}
+
+.coin5{
+	width:20px;
+	height:20px;
+	background-color: #03A9F4;
+    position: relative;
+    border-radius: 50%;
+}
+
+.coin25{
+	width:20px;
+	height:20px;
+	background-color: #e003f4;
+    position: relative;
+    border-radius: 50%;
+    left: 32px;
+    top: 42px;
+    visibility: hidden;
+}
+
+.coin26{
+	width:20px;
+	height:20px;
+	background-color: #e003f4;
+    position: relative;
+    border-radius: 50%;
+}
+
+.hello{
+    margin: 0;
+    font:inherit;
+    font-size: 50px;
+    font-family: 'MedievalSharp';
+    color: rgb(68, 30, 218);
+    padding-top: 76px;
+    padding-left: 440px;
+    font-weight: bold;
+}
+
+.hello1{
+    margin: 0;
+    font:inherit;
+    font-size: 50px;
+    font-family: 'MedievalSharp';
+    color: rgb(218, 30, 102);
+    padding-top: 0px;
+    padding-left: 142px;
+    font-weight: bold;
+}
+
+.hello2{
+    margin: 0;
+    font:inherit;
+    font-size: 25px;
+    font-family: 'MedievalSharp';
+    color: rgb(218, 30, 102);
+    padding-top: 0px;
+    padding-left: 72px;
+    font-weight: bold;
+}
+
+.stage1{
+    background-image: url(res/Stage1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 132px;
+    position: absolute;
+    bottom: 73px;
+    left: 256px;
+}
+
+.s1{
+    background-image: url(res/s1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    bottom: 130px;
+    left: 758px;
+}
+
+.stage2{
+    background-image: url(res/Stage2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 136px;
+    position: absolute;
+    bottom: 177px;
+    left: 277px;
+}
+
+.s2{
+    background-image: url(res/s2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    bottom: 230px;
+    left: 200px;
+}
+
+.stage3{
+    background-image: url(res/Stage3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 141px;
+    position: absolute;
+    bottom: 297px;
+    left: 262px;
+}
+
+.s3{
+    background-image: url(res/s3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    bottom: 355px;
+    left: 763px;
+}
+
+.stage4{
+    background-image: url(res/Stage4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 136px;
+    position: absolute;
+    bottom: 407px;
+    left: 273px;
+}
+
+.s4{
+    background-image: url(res/s4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    bottom: 458px;
+    left: 198px;
+}
+
+.stage5{
+    background-image: url(res/Stage5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 105px;
+    position: absolute;
+    bottom: 538px;
+    left: 268px;
+}
+
+.s5{
+    background-image: url(res/s5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    bottom: 525px;
+    left: 760px;
+}
+
+.start{
+    background-image: url(res/Start.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 85px;
+    position: absolute;
+    bottom: 30px;
+    left: 218px;
+}
+
+.end{
+    background-image: url(res/End.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 85px;
+    position: absolute;
+    top: 78px;
+    left: 714px;
+}
+
+.boat{
+    background-image: url(res/Boat1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 159px;
+}
+
+.bwater{
+    background-image: url(res/bwater.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 159px;
+}
+
+.boat1{
+    background-image: url(res/Boat1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 206px;
+}
+
+.bwater1{
+    background-image: url(res/bwater.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 206px;
+}
+
+.boat2{
+    background-image: url(res/Boat1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 75px;
+    left: 765px;
+}
+
+.bwater2{
+    background-image: url(res/Boat1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 75px;
+    left: 765px;
+}
+
+.ctop{
+    background-image: url(res/ctop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 424px;
+    height: 30px;
+    position: absolute;
+    top: 99px;
+    left: 845px;
+}
+
+.content{
+    background-image: url(res/content.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 423px;
+    height: 461px;
+    position: absolute;
+    top: 129px;
+    left: 845px;
+}
+
+.bottom{
+    background-image: url(res/bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 424px;
+    height: 71px;
+    position: absolute;
+    bottom: 92px;
+    left: 845px;
+}
+
+fire{
+    background-clip: border-box;
+    display: block;
+    background-image: url('res/fire.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+:root {
+    --bg: #e3e4e8;
+    --fg: #2e3138;
+    --primary: #255ff4;
+}
+
+.hourglass {
+    left: 1300px;
+    bottom: -130px;
+    --polygonH: polygon(0% 0%,100% 0%,100% 5.55%,95% 5.55%,95% 28%,60% 46%,60% 54%,95% 72%,95% 94.45%,100% 94.45%,100% 100%,0% 100%,0% 94.45%,5% 94.45%,5% 72%,40% 54%,40% 46%,5% 28%,5% 5.55%,0% 5.55%);
+    animation-name: flip;
+    animation-timing-function: ease-in-out;
+    background-image: linear-gradient(var(--primary) 0.5em,#737a8c55 0.5em 8.5em,var(--primary) 8.5em);
+    clip-path: var(--polygonH);
+    -webkit-clip-path: var(--polygonH);
+    overflow: hidden;
+    position: relative;
+    width: 5em;
+    height: 9em;
+    z-index: 0;
+}
+
+.hourglass:before {
+	--polygonB1: polygon(0% 0%,100% 0%,100% 24%,50% 47%,50% 47%,50% 47%,50% 47%,50% 47%,50% 47%,50% 47%,50% 47%,0% 24%);
+	--polygonB2: polygon(0% 4%,100% 4%,100% 24%,55% 45%,55% 100%,55% 100%,55% 100%,45% 100%,45% 100%,45% 100%,45% 45%,0% 24%);
+	--polygonB3: polygon(0% 24%,100% 24%,100% 24%,55% 45%,55% 80%,100% 100%,100% 100%,0% 100%,0% 100%,45% 80%,45% 45%,0% 24%);
+	--polygonB4: polygon(45% 45%,55% 45%,55% 45%,55% 45%,55% 58%,100% 76%,100% 100%,0% 100%,0% 76%,45% 58%,45% 45%,45% 45%);
+	--polygonB5: polygon(50% 53%,50% 53%,50% 53%,50% 53%,50% 53%,100% 76%,100% 100%,0% 100%,0% 76%,50% 53%,50% 53%,50% 53%);
+	animation-name: fill;
+	background-color: var(--fg);
+	background-size: 100% 3.6em;
+	clip-path: var(--polygonB1);
+	-webkit-clip-path: var(--polygonB1);
+	top: 0.5em;
+	left: 0.5em;
+	width: 4em;
+	height: 8em;
+	z-index: 1;
+}
+
+.hourglass:before, .hourglass:after {
+	animation-timing-function: linear;
+	content: "";
+	display: block;
+	position: absolute;
+}
