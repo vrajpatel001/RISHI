@@ -2,7 +2,7 @@
 
 # A Chronicle Bon Voyage
 
-![Slide1](/Resreadme/Slide1.png)
+![Slide1](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Slide1.PNG?raw=true)
 
 ### Problem Statement of the game (TYCH62):
 - Games highligting contribution of Bharatiya Rishis towards Science, Maths and Literature
@@ -28,23 +28,23 @@ treasure hunt comprising of all story lines.
 
 ---
 ### How the game pans out:
-![Slide4](/Resreadme/Slide4.png)
+![Slide4](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Slide4.PNG?raw=true)
 
 ---
 ### Gameplay:
-![Slide5](/Resreadme/Slide5.png)
+![Slide5](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Slide5.PNG?raw=true)
 ### The screen recording of Webfiles/index.html:
-<video controls="true" allowfullscreen="true" poster="/Resreadme/Gameplay.png"> 
-    <source src="/Resreadme/Gameplay.mp4" type="video/mp4">
+<video controls="true" allowfullscreen="true" poster="https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Gameplay.png?raw=true" width="100%" height="100%"> 
+    <source src="https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Gameplay.mp4?raw=true" type="video/mp4">
 </video>
 
 ---
 ### Treasurehunt example:
-![Slide6](/Resreadme/Slide6.png)
+![Slide6](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Slide6.PNG?raw=true)
 
 ---
 ### Constraints of the game:
-![Slide7](https://github.com/vrajpatel001/RISHI/raw/master/Resreadme/Slide7.png)
+![Slide7](https://github.com/vrajpatel001/RISHI/blob/master/Resreadme/Slide7.PNG?raw=true)
 
 ---
 ### Our Toycathon 2021 Grandfinale selection poster:
